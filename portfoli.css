@@ -1,0 +1,165 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #fcf6fe;
+color: #25104D;
+margin: 0;
+line-height: 1.6;
+}
+
+/* Menú de navegació */
+header{
+background-color: #25104D;
+padding: 15px;
+text-align: center;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header a{
+display: inline-block;
+color: #F7D9FC;
+text-decoration: none;
+font-weight: bold;
+padding: 8px 15px;
+margin: 0 5px;
+border-radius: 8px;
+}
+
+header a:hover{
+background-color: #C2286B;
+color: white;
+}
+
+/* Títols */
+h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #5B1C2E;
+text-align: center;
+margin-top: 40px;
+}
+
+h2{
+text-align: center;
+color: #C2286B;
+}
+
+h3{
+color: #5B1C2E;
+text-align: center;
+}
+
+/*  Paràgrafs de la introducció ===== */
+body > p{
+max-width: 600px;
+margin: 10px auto;
+padding: 0 15px;
+text-align: center;
+}
+
+/*  Llistes d'IDEs i llenguatges  */
+ul{
+list-style: none;
+text-align: center;
+padding: 0;
+}
+
+ul li{
+display: inline-block;
+background-color: white;
+border: 2px solid #F7D9FC;
+padding: 6px 15px;
+margin: 5px;
+border-radius: 20px;
+font-weight: bold;
+}
+
+/* Botons per filtrar*/
+.filtres{
+    text-align: center;
+    margin: 20px 0;
+}
+
+button{
+background-color: white;
+border: 2px solid #C2286B;
+color: #C2286B;
+font-weight: bold;
+padding: 8px 18px;
+margin: 5px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+button:hover{
+background-color: #C2286B;
+color: white;
+}
+
+/*Projectes*/
+#llista-projectes{
+text-align: center;
+padding: 20px;
+}
+
+#llista-projectes article{
+display: inline-block;
+vertical-align: top;
+width: 280px;
+background-color: white;
+border: 1px solid #F7D9FC;
+border-radius: 10px;
+margin: 15px;
+text-align: left;
+overflow: hidden;
+box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+#llista-projectes article h3{
+margin: 0;
+background-color: #5B1C2E;
+color: white;
+border-bottom: 1px solid #C2286B;
+padding: 10px;
+font-size: 16px;
+}
+
+/* Text dins de la finestra */
+#llista-projectes article p{
+padding: 0 12px;
+font-size: 14px;
+}
+
+/* Botó per anar a GitHub */
+#llista-projectes article a{
+display: block;
+text-align: center;
+background-color: #C2286B;
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 8px;
+margin: 10px 12px 15px;
+border-radius: 8px;
+}
+
+#llista-projectes article a:hover{
+background-color: #FAB940;
+color: #25104D;
+}
+
+/* Contacte*/
+footer{
+background-color: #25104D;
+text-align: center;
+padding: 20px;
+}
+
+footer a{
+color: #F7D9FC;
+text-decoration: none;
+font-weight: bold;
+margin: 0 10px;
+}
+
+footer a:hover{
+color: #FAB940;
+}
