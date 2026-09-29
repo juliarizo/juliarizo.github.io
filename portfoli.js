@@ -64,9 +64,9 @@ document.getElementById("b_php").addEventListener("click", () => {
     mostrarProjectes(filtrats);
 });
 
-document.getElementById("b_vb").addEventListener("click", () => {
+document.getElementById("b_c").addEventListener("click", () => {
     const filtrats = projectesPortfoli.filter(
-        projecte => projecte.language === "Visual Basic .NET"
+        projecte => projecte.language === "C#"
     );
     mostrarProjectes(filtrats);
 });
